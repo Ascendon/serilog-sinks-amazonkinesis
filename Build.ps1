@@ -57,7 +57,7 @@ function Invoke-Build($majorMinor, $patch, $customLogger, $notouch)
 
     Invoke-MSBuild $solution $customLogger
 
-    Invoke-NuGetPackSpec "src/Serilog.Sinks.AmazonKinesis.nuspec" $package
+    Invoke-NuGetPackSpec "src/Ascendon.Serilog.Sinks.AmazonKinesis.nuspec" $package
 }
 
 $ErrorActionPreference = "Stop"
